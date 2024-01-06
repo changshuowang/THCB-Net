@@ -132,7 +132,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/occ_duke/swin_base.y
 |        PFD         |  AAAI 2022  |   69.5/61.8   |   81.5/83.0   |     --/--     |     --/--      |
 |        FRT         |  TIP 2022   |   70.7/61.3   |   80.4/71.0   |    88.2/--    |    73.0/--     |
 |        DPM         |  ACMMM2022  |   71.4/61.8   |   85.5/79.7   |     --/--     |     --/--      |
-| CLIP-ReID+SIE+OLP  |  AAAI 2023  |   67.2/60.3   |     --/--     |     --/--     |     --/--      |
+|[CLIP-ReID+SIE+OLP](https://arxiv.org/abs/2211.13977) |  AAAI 2023  |   67.2/60.3   |     --/--     |     --/--     |     --/--      |
 |        CAAO        |  TIP 2023   |   68.5/59.5   |   87.1/83.4   |     --/--     |     --/--      |
 |        SAP         |  AAAI 2023  |   70.0/62.2   |   83.0/76.8   |     --/--     |     --/--      |
 |       RGANet       |  TIFS 2023  |   71.6/62.4   |   86.4/80.0   |    87.2/--    |    77.0/--     |
@@ -152,7 +152,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/occ_duke/swin_base.y
 |        FRT         |  TIP 2022   |   95.5/88.1   |   90.5/81.7   |
 |        DPM         |  ACMMM2022  |   95.5/89.7   |   91.0/82.6   |
 |        PASS        |  ECCV2022   |   96.9/93.3   |     --/--     |
-| CLIP-ReID+SIE+OLP  |  AAAI 2023  |   95.4/90.5   |     --/--     |
+|[CLIP-ReID+SIE+OLP](https://arxiv.org/abs/2211.13977) |  AAAI 2023  |   95.4/90.5   |     --/--     |
 |        CAAO        |  TIP 2023   |   95.3/88.0   |   89.8/80.9   |
 |        SAP         |  AAAI 2023  |   96.0/90.5   |     --/--     |
 |       RGANet       |  TIFS 2023  |   95.5/89.7   |     --/--     |
