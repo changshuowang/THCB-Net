@@ -138,6 +138,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/occ_duke/swin_base.y
 |       RGANet       |  TIFS 2023  |   71.6/62.4   |   86.4/80.0   |    87.2/--    |    77.0/--     |
 |        FODN        |  ACMMM2023  |   72.6 61.9   |   87.1/80.8   |     --/--     |     --/--      |
 |      SOLIDER       |  CVPR 2023  |   71.3/62.3   |   85.0/82.0   |   79.0/78.7   |   79.0/84.6    |
+|       [TSD](https://arxiv.org/abs/2312.09797)        | ICASSP 2024 |   74.5/62.8   |     --/--     |     --/--     |     --/--      |
 | **THCB-Net** (our) |   Waiting   | **80.0/70.7** | **88.9/84.8** | **91.3/88.0** | **83.2/89.0**  |
 
 #### The results on holistic person re-ID datasets:
@@ -161,6 +162,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/occ_duke/swin_base.y
 |        RAM         | Arxiv 2023  |   96.3/90.1   |     --/--     |
 |       UniHCP       |  CVPR 2023  |   \--/90.3    |     --/--     |
 |      SOLIDER       |  CVPR 2023  |   96.9/93.9   |   92.8/85.2   |
+|       [TSD](https://arxiv.org/abs/2312.09797)        | ICASSP 2024 |     --/--     |   90.8/82.8   |
 | **THCB-Net** (our) |   Waiting   | **97.4/93.9** | **94.7/87.2** |
 
 ## Citation
