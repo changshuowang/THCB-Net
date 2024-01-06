@@ -138,8 +138,10 @@ CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/occ_duke/swin_base.y
 |       RGANet       |  TIFS 2023  |   71.6/62.4   |   86.4/80.0   |    87.2/--    |    77.0/--     |
 |        FODN        |  ACMMM2023  |   72.6 61.9   |   87.1/80.8   |     --/--     |     --/--      |
 |      SOLIDER       |  CVPR 2023  |   71.3/62.3   |   85.0/82.0   |   79.0/78.7   |   79.0/84.6    |
+|      [BPBReID](https://arxiv.org/abs/2211.03679)       |  WACV 2023  |   75.1/62.5   |   82.9/75.2   |     --/--     |     --/--      | 
+|       [OAFR](https://ieeexplore.ieee.org/abstract/document/10314802)       |   TMM 2023  |   76.7/66.4   |   91.3/86.2   |   87.0/84.5   |     --/--      |
 |       [TSD](https://arxiv.org/abs/2312.09797)        | ICASSP 2024 |   74.5/62.8   |     --/--     |     --/--     |     --/--      |
-| **THCB-Net** (our) |   Waiting   | **80.0/70.7** | **88.9/84.8** | **91.3/88.0** | **83.2/89.0**  |
+| **THCB-Net** (our) |   Waiting   | **80.0/70.7** |   88.9/84.8   | **91.3/88.0** | **83.2/89.0**  |
 
 #### The results on holistic person re-ID datasets:
 
@@ -157,11 +159,13 @@ CUDA_VISIBLE_DEVICES=0 python test.py --config_file configs/occ_duke/swin_base.y
 |        SAP         |  AAAI 2023  |   96.0/90.5   |     --/--     |
 |       RGANet       |  TIFS 2023  |   95.5/89.7   |     --/--     |
 |        FODN        |  ACMMM2023  |   95.5 89.2   |   91.2/83.3   |
+|      [BPBReID](https://arxiv.org/abs/2211.03679)       |  WACV 2023  |   95.7/89.4   |   92.4/84.2   |
 |    PLIP+ABDNet     | Arxiv 2023  |   96.7/91.2   |   90.9/81.6   |
 |        PATH        |  CVPR 2023  |   \--/91.8    |     --/--     |
 |        RAM         | Arxiv 2023  |   96.3/90.1   |     --/--     |
 |       UniHCP       |  CVPR 2023  |   \--/90.3    |     --/--     |
 |      SOLIDER       |  CVPR 2023  |   96.9/93.9   |   92.8/85.2   |
+|       [OAFR](https://ieeexplore.ieee.org/abstract/document/10314802)       |   TMM 2023  |   95.5/90.1   |   90.8/83.3   |
 |       [TSD](https://arxiv.org/abs/2312.09797)        | ICASSP 2024 |     --/--     |   90.8/82.8   |
 | **THCB-Net** (our) |   Waiting   | **97.4/93.9** | **94.7/87.2** |
 
